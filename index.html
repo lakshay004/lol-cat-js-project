@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Lolcat Clock</h1>
+   <h2> I CAN HAZ TIME??</h2> 
+     <div>
+    <div id="clock"></div>
+
+        <div class="container4">
+            <div class="img-cont">
+                <img id="myimg" src="photo.jpeg" alt="partyimage">
+            </div>
+            <div class="centered" id="centered"> "Good Morning!" </div>
+        </div>
+
+
+   <div class="container">
+    <label for="wakeuptime"> Set wake up time</label>
+    <select id="wakeuptime" onchange="updateImageOntime()">
+        <option value="1am-2am"> 1am-2am </option> 
+        <option value="2am-3am"> 2am-3am </option> 
+        <option value="4am-5am"> 4am-5am </option>
+        <option value="6am-7am"> 6am-7am </option>
+        <option value="7am-8am"> 7am-8am </option>
+        <option value="8am-9am"> 8am-9am </option>
+        <option value="9am-10am"> 9am-10am </option>
+        <option value="10am-11am"> 10am-11am </option>
+        <option value="11am-12pm"> 11am-12pm </option>
+        <option value="12pm-1pm"> 12pm-1pm </option>
+        <option value="1pm-2pm"> 1pm-2pm </option>
+        <option value="3pm-4pm"> 3pm-4pm </option>
+        <option value="4pm-5pm"> 4pm-5pm </option>
+        <option value="5pm-6pm"> 5pm-6pm </option>
+        <option value="6pm-7pm"> 6pm-7pm </option>
+        <option value="7pm-8pm"> 7pm-8pm </option>
+        <option value="8pm-9pm"> 8pm-9pm </option>
+        <option value="9pm-10pm"> 9pm-10pm</option>
+        <option value="10pm-11pm"> 10pm-11pm </option>
+        <option value="11pm-12am"> 11pm-12am </option>
+        <option value="12am-1am"> 12am-1am </option>
+    </select> <br>
+    <label for="dinnertime"> Set dinner time</label>
+    <select id="dinnertime" onchange="updateImageOntime()">
+        <option value="1am-2am"> 1am-2am </option> 
+        <option value="2am-3am"> 2am-3am </option> 
+        <option value="4am-5am"> 4am-5am </option>
+        <option value="6am-7am"> 6am-7am </option>
+        <option value="7am-8am"> 7am-8am </option>
+        <option value="8am-9am"> 8am-9am </option>
+        <option value="9am-10am"> 9am-10am </option>
+        <option value="10am-11am"> 10am-11am </option>
+        <option value="11am-12pm"> 11am-12pm </option>
+        <option value="12pm-1pm"> 12pm-1pm </option>
+        <option value="1pm-2pm"> 1pm-2pm </option>
+        <option value="3pm-4pm"> 3pm-4pm </option>
+        <option value="4pm-5pm"> 4pm-5pm </option>
+        <option value="5pm-6pm"> 5pm-6pm </option>
+        <option value="6pm-7pm"> 6pm-7pm </option>
+        <option value="7pm-8pm"> 7pm-8pm </option>
+        <option value="8pm-9pm"> 8pm-9pm </option>
+        <option value="9pm-10pm"> 9pm-10pm</option>
+        <option value="10pm-11pm"> 10pm-11pm </option>
+        <option value="11pm-12am"> 11pm-12am </option>
+        <option value="12am-1am"> 12am-1am </option>
+   
+    </select> <br>
+    <label for="naptime"> Set nap time</label>
+    <select id="naptime" onchange="updateImageOntime()">
+        <option value="2am-3am"> 2am-3am </option> 
+        <option value="4am-5am"> 4am-5am </option>
+        <option value="6am-7am"> 6am-7am </option>
+        <option value="7am-8am"> 7am-8am </option>
+        <option value="8am-9am"> 8am-9am </option>
+        <option value="9am-10am"> 9am-10am </option>
+        <option value="10am-11am"> 10am-11am </option>
+        <option value="11am-12pm"> 11am-12pm </option>
+        <option value="12pm-1pm"> 12pm-1pm </option>
+        <option value="1pm-2pm"> 1pm-2pm </option>
+        <option value="3pm-4pm"> 3pm-4pm </option>
+        <option value="4pm-5pm"> 4pm-5pm </option>
+        <option value="5pm-6pm"> 5pm-6pm </option>
+        <option value="6pm-7pm"> 6pm-7pm </option>
+        <option value="7pm-8pm"> 7pm-8pm </option>
+        <option value="8pm-9pm"> 8pm-9pm </option>
+        <option value="9pm-10pm"> 9pm-10pm</option>
+        <option value="10pm-11pm"> 10pm-11pm </option>
+        <option value="11pm-12am"> 11pm-12am </option>
+        <option value="12am-1am"> 12am-1am </option>
+    </select> <br>
+</div>
+
+
+<input onclick="changepartytime()" type="button" value="Party Time" id="myButton1"></input>
+    <script src="index.js"></script>
+   <h1> © Skillcrush 2016</h1>
+        </body>
+</html>
